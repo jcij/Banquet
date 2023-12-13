@@ -1,0 +1,59 @@
+.selectPortfolioModal{
+  .image_picker {
+    width: 100%;
+    margin-top: 10px;
+    & .title {
+        margin: 0 6px;
+    }
+    & .responsive{
+      position: relative;
+      margin: 0 6px;
+      float: left;
+      opacity: 1;
+    &:hover {
+      cursor: pointer;
+    }
+
+    & img{
+          width: 150px;
+          height: 150px;
+          object-fit: cover;
+          display: block;
+          max-width: 100%;
+          &.thumbnail{
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 5px;
+            width: 150px;
+            opacity: 1;
+            margin: 0;
+          &:hover {
+            box-shadow: 0 0 2px 1px #008cba;
+          }
+        }
+          &.selected {
+            background-color: #008cba;
+          }
+    }
+    & .checked {
+      display: none;
+      &.selected {
+        display: inline-block;
+        transition: .5s ease;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+
+        & .icon {
+          & svg{
+            background-color: #fff;
+          }
+        }
+      }
+    }
+  }
+    // & .selected {
+    //   opacity: .7;
+    // }
+  }
+}

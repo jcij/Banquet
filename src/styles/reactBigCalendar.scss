@@ -1,0 +1,99 @@
+@import "./utils/variables.scss";
+
+.grieger-rbc {
+  // .rbc-time-slot {
+  .rbc-label,
+  .rbc-button-link,
+  .rbc-header {
+    font-family: $font-family-2;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #051635;
+    border-bottom: none;
+  }
+  // }
+
+  &.common{
+       .rbc-event {
+        background: rgba(250, 221, 4, 0.945) !important;
+        border-left: 2px solid #3be914 !important;
+       }
+    ;
+  }
+  .rbc-event {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    background: rgba(58, 134, 255, 0.1) ;
+    border-radius: 8px !important;
+    border-left: 2px solid #3a86ff ;
+
+    font-family: $font-family-2;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #051635;
+
+    &.modal{
+      background: #fff !important;
+    }
+
+    .rbc-day-slot {
+      display: none !important;
+    }
+
+    .rbc-event-label {
+      // font-family: $font-family-2;
+      // font-weight: 400;
+      // font-size: 12px;
+      // line-height: 18px;
+      // color: #8a94a6;
+      display: none;
+    }
+
+    .g-custom-event {
+      // margin-top: 5px;
+      display: flex;
+      flex-direction: column;
+      gap: 7px;
+      align-items: center;
+      &.dark{        
+        & .g-title,.g-time{
+          font-weight: bold;
+        color:#000
+      }
+      }
+      &.light{        
+        & .g-title,.g-time{
+          font-weight: bold;
+        color:#fff
+      }
+      }
+      & .g-title >span{
+        font-family: $font-family-2;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: #051635;
+        
+      }
+      & .g-time{
+          font-family: $font-family-2;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 18px;
+          color: #8a94a6;
+          text-align: center;
+      }
+    }
+  }
+
+  .rbc-route{
+    font-family: $font-family-2;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    color: #051635;
+  }
+}

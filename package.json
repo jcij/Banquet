@@ -1,0 +1,103 @@
+{
+  "name": "cashonex-admin",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/css": "^11.5.0",
+    "@emotion/react": "^11.6.0",
+    "@emotion/styled": "^11.6.0",
+    "@fullcalendar/daygrid": "^5.10.1",
+    "@fullcalendar/react": "^5.10.1",
+    "@iconify/icons-eva": "^1.1.0",
+    "@iconify/react": "^3.0.1",
+    "@mui/icons-material": "^5.0.5",
+    "@mui/lab": "^5.0.0-alpha.47",
+    "@mui/material": "^5.0.0",
+    "@mui/styles": "^5.2.0",
+    "@mui/utils": "^5.0.0",
+    "@mui/x-date-pickers": "^6.1.0",
+    "@reduxjs/toolkit": "^1.6.2",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.24.0",
+    "change-case": "^4.1.2",
+    "clsx": "^1.1.1",
+    "date-fns": "^2.24.0",
+    "faker": "^5.5.3",
+    "formik": "^2.2.9",
+    "framer-motion": "^4.1.17",
+    "immutable": "^4.0.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "mui-datatables": "^4.1.2",
+    "node-sass": "^6.0.1",
+    "numeral": "^2.0.6",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-big-calendar": "^1.8.5",
+    "react-datepicker": "^4.24.0",
+    "react-dom": "^17.0.2",
+    "react-dropzone": "^11.4.2",
+    "react-dropzone-uploader": "^2.11.0",
+    "react-helmet-async": "^1.1.2",
+    "react-image-picker": "^1.1.1",
+    "react-lazy-load-image-component": "^1.5.4",
+    "react-otp-input": "^2.4.0",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^6.0.1",
+    "react-scripts": "^4.0.3",
+    "react-slick": "^0.28.1",
+    "reactn": "^2.2.7",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.4.0",
+    "simplebar": "^5.3.5",
+    "simplebar-react": "^2.3.5",
+    "toastr": "^2.1.4",
+    "use-react-router-breadcrumbs": "^3.0.1",
+    "yup": "^0.32.9"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/eslint-parser": "^7.15.7",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-react-app": "^6.0.0",
+    "eslint-plugin-flowtype": "^6.0.1",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.25.2",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "prettier": "^2.4.1",
+    "web-vitals": "^2.1.2"
+  },
+  "engines": {
+    "node": "16.x"
+  }
+}
